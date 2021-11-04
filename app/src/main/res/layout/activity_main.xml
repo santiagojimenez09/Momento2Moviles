@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Mascotas"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo Mascota"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etcod_mascota"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Ingrese el codigo de la mascota"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Mascota"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etnom_mascota"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Ingrese el nombre de la mascota"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edad Mascota"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etedad_mascota"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Ingrese la edad de la mascota"
+        android:inputType="text|number"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Propietario"
+        android:gravity="center_horizontal"
+        />
+    <EditText
+        android:id="@+id/etnom_propietario"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Ingrese el nombre del propietario"
+        android:inputType="textPersonName"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/btregistrar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0CEA15"
+        android:text="Registrar" />
+
+    <Button
+        android:id="@+id/btconsultar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#6D7FE3"
+        android:text="Consultar" />
+
+    <Button
+        android:id="@+id/bteditar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F49507"
+        android:text="Editar" />
+
+    <Button
+        android:id="@+id/bteliminar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#BD1919"
+        android:text="Eliminar" />
+</LinearLayout>
